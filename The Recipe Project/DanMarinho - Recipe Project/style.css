@@ -1,0 +1,72 @@
+:root {
+  --primary-color: white;
+  --primary-color-2: black;
+  --secondary-color: rgb(224, 218, 218);
+  --background-color: brown;
+}
+
+html {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-color-2);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipes {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.recipes:hover {
+  background-color: wheat;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.procedings {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.procedings:hover {
+  background-color: wheat;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+ol li label {
+  display: flex;
+  justify-content: space-between; /* texto esquerda, checkbox direita */
+  align-items: center;
+  min-width: 300px; /* define largura igual */
+  gap: 10px;
+}
+
+/* aumentar checkbox */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: green; /* marcador verde */
+  cursor: pointer;
+}
