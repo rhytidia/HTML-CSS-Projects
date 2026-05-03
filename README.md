@@ -39,7 +39,7 @@ Example:
 
 ## Members
 
-(Add contributors here)
+(Contributors will be added here)
 
 ## License
 
