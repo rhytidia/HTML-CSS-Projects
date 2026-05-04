@@ -42,7 +42,6 @@ Your project should include:
 - A title for the recipe
 - A list of ingredients
 - Step-by-step instructions
-- At least one image related to the recipe
 
 ---
 
