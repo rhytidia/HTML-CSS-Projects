@@ -42,10 +42,6 @@ Example:
 - HTML5
 - CSS3
 
-## Members
-
-(Contributors will be added here)
-
 ## License
 
 MIT License
