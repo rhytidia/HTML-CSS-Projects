@@ -24,12 +24,16 @@ Practice front-end development, improve coding skills, receive feedback, and bui
 
 ## Suggested Folder Structure
 
-/member-name/project-name
+/project-name/member-name
 
 Example:
 
-/daniel/landing-page
-/maria/portfolio-site
+/recipe-preoject/daniel
+/landing-page/maria
+
+If you are working on an individual project that other individuals have also worked on, there's probably a "project-name" folder that exists. Create your individual folder in that.
+
+**Always** try to use "-" instead of spaces, since this repository is also deployed, it will make it easier to share your links with the community.
 
 ## Rules
 
